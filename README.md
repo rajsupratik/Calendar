@@ -1,55 +1,31 @@
-#!/bin/bash
+# JS Calendar
 
-echo "Welcome to the JS Calendar project setup!"
+This project was generated with **Angular CLI** version 16.0.4.
 
-# Development Server
-echo "Starting the development server..."
-echo "Run the following command to start the development server:"
-echo "ng serve"
-echo "Navigate to http://localhost:4200/ to view the application."
+## Getting Started
 
-# Code Scaffolding
-echo ""
-echo "Code Scaffolding:"
-echo "To generate a new component, use:"
-echo "ng generate component component-name"
-echo "Other scaffolding options:"
-echo "Directive: ng generate directive directive-name"
-echo "Pipe: ng generate pipe pipe-name"
-echo "Service: ng generate service service-name"
-echo "Class: ng generate class class-name"
-echo "Guard: ng generate guard guard-name"
-echo "Interface: ng generate interface interface-name"
-echo "Enum: ng generate enum enum-name"
-echo "Module: ng generate module module-name"
+### Prerequisites
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Angular CLI](https://angular.io/cli)
 
-# Build
-echo ""
-echo "Building the project..."
-echo "Run the following command to build the project:"
-echo "ng build"
-echo "Build artifacts will be stored in the 'dist/' directory."
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/js-calendar.git
+cd js-calendar
+npm install
+ng serve
+ng generate component component-name
 
-# Running Unit Tests
-echo ""
-echo "Running Unit Tests:"
-echo "To execute unit tests via Karma, run:"
-echo "ng test"
 
-# Running End-to-End Tests
-echo ""
-echo "Running End-to-End Tests:"
-echo "To execute end-to-end tests, first add a package for e2e testing:"
-echo "Then, run:"
-echo "ng e2e"
+Other scaffolding options:
 
-# Further Help
-echo ""
-echo "Further Help:"
-echo "For more help with Angular CLI, run:"
-echo "ng help"
-echo "Visit the Angular CLI Overview and Command Reference page:"
-echo "https://angular.io/cli"
-
-echo ""
-echo "Script execution complete! Follow the instructions above to use the project."
+Directive: ng generate directive directive-name
+Pipe: ng generate pipe pipe-name
+Service: ng generate service service-name
+Class: ng generate class class-name
+Guard: ng generate guard guard-name
+Interface: ng generate interface interface-name
+Enum: ng generate enum enum-name
+Module: ng generate module module-name
