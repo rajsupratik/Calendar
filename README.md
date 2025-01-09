@@ -10,10 +10,7 @@ Ensure you have the following installed on your system:
 - [Angular CLI](https://angular.io/cli)
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/js-calendar.git
-cd js-calendar
+
 npm install
 ng serve
 ng generate component component-name
